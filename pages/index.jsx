@@ -10,6 +10,8 @@ import p3 from "../public/images/p3.jpg";
 import p4 from "../public/images/p4.jpg";
 import p5 from "../public/images/p5.jpeg";
 import p6 from "../public/images/p6.jpg";
+import p7 from "../public/images/ld3.jpg";
+import p8 from "../public/images/p8.webp";
 
 function Home() {
   useEffect(() => {
@@ -314,9 +316,32 @@ function Home() {
           <span>My Recent Works</span>
         </div>
         <div className="portfolio-content">
+          <a
+            href="https://legaldraftai.vercel.app"
+            target="_blank"
+            rel="noopener"
+          >
+            <div className="portfolio-img">
+              <Image src={p7} alt="LegalDraft AI" />
+            </div>
+            <div className="caption">
+              <p>LegalDraft AI</p>
+            </div>
+          </a>
+          <a href="https://uandudesigns.com" target="_blank" rel="noopener">
+            <div className="portfolio-img">
+              <Image src={p8} alt="UandUDesigns events planning and styling" />
+            </div>
+            <div className="caption">
+              <p>UandUDesigns Event Planning & Styling</p>
+            </div>
+          </a>
           <a href="https://stripe-tec.com" target="_blank" rel="noopener">
             <div className="portfolio-img">
               <Image src={p1} alt="" />
+            </div>
+            <div className="caption">
+              <p>Stripe-tec</p>
             </div>
           </a>
           <a href="https://gasport.ng" target="_blank" rel="noopener">
