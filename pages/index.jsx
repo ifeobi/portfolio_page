@@ -10,7 +10,7 @@ import p3 from "../public/images/p3.jpg";
 import p4 from "../public/images/p4.jpg";
 import p5 from "../public/images/p5.jpeg";
 import p6 from "../public/images/p6.jpg";
-import p7 from "../public/images/draftsmanai.jpg";
+import p7 from "../public/images/draftsmanai.jpeg";
 import p8 from "../public/images/p8.webp";
 
 function Home() {
