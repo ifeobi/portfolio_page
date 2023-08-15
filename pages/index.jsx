@@ -10,7 +10,7 @@ import p3 from "../public/images/p3.jpg";
 import p4 from "../public/images/p4.jpg";
 import p5 from "../public/images/p5.jpeg";
 import p6 from "../public/images/p6.jpg";
-import p7 from "../public/images/ld3.jpg";
+import p7 from "../public/images/draftsmanai.jpg";
 import p8 from "../public/images/p8.webp";
 
 function Home() {
@@ -317,15 +317,15 @@ function Home() {
         </div>
         <div className="portfolio-content">
           <a
-            href="https://legaldraftai.vercel.app"
+            href="https://draftsmanai.vercel.app/"
             target="_blank"
             rel="noopener"
           >
             <div className="portfolio-img">
-              <Image src={p7} alt="LegalDraft AI" />
+              <Image src={p7} alt="draftsmanAI" />
             </div>
             <div className="caption">
-              <p>LegalDraft AI</p>
+              <p>DraftsmanAI</p>
             </div>
           </a>
           <a href="https://uandudesigns.com" target="_blank" rel="noopener">
